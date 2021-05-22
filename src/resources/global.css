@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  color: #353535;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+body,
+html {
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+#root {
+  height: 100vh;
+}
+
+/*utility*/
+.wd40 {
+  width: 40%;
+}
+
+.wd100 {
+  width: 100%;
+}
+.rel {
+  position: relative;
+}
+
+.nav-bg {
+  background-color: #3c3c3c;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  margin-right: 1rem;
+  list-style: none;
+  border-right: 0.08rem solid #fff;
+  padding-right: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-action {
+  background-color: #ee5935;
+  color: white;
+  border: none;
+  padding: 9px 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-action:hover {
+  background-color: #d85333;
+}
+
+.flex-center-col {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-col {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.flex-center-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-justify-center-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sec-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sub-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-label {
+  margin: 0.8rem 0rem;
+}
+
+.info {
+  color: #ee575d;
+}

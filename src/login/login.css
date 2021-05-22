@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.full-wh {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: #fff; */
+  border: 1px solid #ee5935;
+  border-radius: 8px;
+}
+
+.tool-info {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #ee5935; */
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+  background: url(./../assets/images/99815.png);
+  background-size: cover;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.input-control {
+  padding: 5px 10px;
+  margin-bottom: 0.5rem;
+}
+
+.enter_cred {
+  position: relative;
+  bottom: 20px;
+}
+
+.login-form-container .info {
+  position: absolute;
+  bottom: 25px;
+}
